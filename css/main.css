@@ -1,6 +1,7 @@
 body {
     position: relative;
     background: white;
+    font-family: 'Roboto', sans-serif;
 }
 h1 {
     color: black;
@@ -9,7 +10,7 @@ h1 {
     max-width: 1150px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 .text-center {
     text-align: center;
@@ -18,7 +19,7 @@ h1 {
     display: inline-block;
 }
 header {
-    padding: 80px 0 ;
+    padding: 60px 0 0 0;
     background: #ccc;
 }
 .menu {
@@ -52,7 +53,7 @@ header {
 }
 .hero-section {
     background: #ccc;
-    padding: 80px 0;
+    padding: 60px 0;
     color: #727272;
 }
 .container-images {
@@ -75,7 +76,8 @@ iframe {
     border: 0;
 }
 footer {
-    padding: 10px 0;
+    padding: 20px 40px;
     background: #34547a;
+    color: white;
 }
 
