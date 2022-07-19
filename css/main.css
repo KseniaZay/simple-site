@@ -14,15 +14,12 @@ h1 {
 .text-center {
     text-align: center;
 }
-.center-box {
-    margin: 0 auto;
-
-}
 .inline-block {
     display: inline-block;
 }
 header {
-    padding: 20px 0 ;
+    padding: 80px 0 ;
+    background: #ccc;
 }
 .menu {
     margin: 0;
@@ -31,10 +28,15 @@ header {
 }
 .menu a {
     text-decoration: none;
+    color: black;
+    transition: 1s;
 }
 .menu li {
     display: inline-block;
     padding: 0 20px 0 0;
+}
+.menu a:hover {
+    color:rgba(52, 84, 122, 1);
 }
 .button {
     background: rgba(52, 84, 122, 1);
@@ -42,20 +44,38 @@ header {
     text-decoration: none;
     display: inline-block;
     padding: 20px 25px;
+    margin: 20px 0;
 }
 .text-content {  
     max-width: 540px;
+    margin: 50px 0;
 }
 .hero-section {
     background: #ccc;
     padding: 80px 0;
     color: #727272;
 }
-
-
-
+.container-images {
+    text-align: center;
+    padding: 30px 0;
+    background: rgba(52, 84, 122, 1);
+}
+.images-box {
+    list-style: none;
+}
+.images-box li {
+    display: inline-block;    
+    color: white;
+}
+iframe {
+    width: 1110px;
+    height: 680px;
+    margin-top: 57px;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
 footer {
-    padding: 20px 0;
+    padding: 10px 0;
     background: #34547a;
 }
 
