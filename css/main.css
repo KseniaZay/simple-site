@@ -61,12 +61,11 @@ header {
     padding: 30px 0;
     background: rgba(52, 84, 122, 1);
 }
-.images-box {
-    list-style: none;
-}
-.images-box li {
-    display: inline-block;    
+.box {
+    display: inline-block;
     color: white;
+    padding: 0 30px 0 10px;
+
 }
 iframe {
     width: 1110px;
