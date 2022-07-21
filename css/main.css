@@ -6,6 +6,9 @@ body {
 h1 {
     color: black;
 }
+h2 {
+    color: black;
+}
 .container {
     max-width: 1150px;
     width: 100%;
@@ -47,9 +50,13 @@ header {
     padding: 20px 25px;
     margin: 20px 0;
 }
+.button:hover {
+    color: white;
+}
 .text-content {  
     max-width: 540px;
     margin: 50px 0;
+    color: #727272;
 }
 .hero-section {
     background: #ccc;
@@ -61,11 +68,13 @@ header {
     padding: 30px 0;
     background: rgba(52, 84, 122, 1);
 }
+.images li {
+    display: inline-block;
+}
 .box {
     display: inline-block;
     color: white;
     padding: 0 30px 0 10px;
-
 }
 iframe {
     width: 1110px;
